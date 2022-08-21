@@ -27,7 +27,6 @@ int main(void) {
     // create the socket
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
-
     // connect to the server on localhost
     struct sockaddr_in address;
     address.sin_family = AF_INET;
